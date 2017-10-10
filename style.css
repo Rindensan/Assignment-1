@@ -1,0 +1,269 @@
+#background{
+    width:100vw;
+    height:100vh;
+    background-image:url(img/BlazBlue_Wiki_Background,_Message_Wall.jpg);
+    background-size:cover;
+    position:absolute;
+    left: 0;
+    top: 0;
+}
+        
+.Image{
+    height:150px;
+    width:150px;
+    position: absolute;
+}
+
+#Image1{
+    top: 100px;
+    left: 100px;
+    width:150px;
+    height:150px;
+    background-image: url(img/Ragna_the_Bloodedge_Calamity_Trigger,_Character_Select_Artwork.png);
+    background-size: cover;
+    position: absolute;
+    
+}
+
+#Image2{
+    top: 100px;
+    left: 750px;
+    width:150px;
+    height:150px;
+    background-image: url(img/Jin_Kisaragi_Calamity_Trigger,_Character_Select_Artwork.png);
+    background-size: cover;
+    position: absolute;
+}
+
+#Image3{
+    top: 200px;
+    left: 1000px;
+    width:150px;
+    height:150px;
+    background-image:url(img/Noel_Vermillion_Calamity_Trigger,_Character_Select_Artwork.png);
+    background-size: cover;
+    position: absolute;
+}
+
+#Image4{
+    top: 300px;
+    left: 400px;
+    width:150px;
+    height:150px;
+    background-image: url(img/Rachel_Alucard_Calamity_Trigger,_Character_Select_Artwork.png);
+    background-size: cover;
+    position: absolute;
+}
+
+.horitaskbar{
+    position:fixed;
+    height: 54px;
+    width: 487px;
+    background-color: black;
+
+}
+
+.verttaskbar{
+    position:fixed;
+    width: 54px;
+    height: 497px;
+    background-color: black;
+}
+
+#task1{
+    top:30px;
+    left:-54px;
+    transition: left 1s;
+        
+}
+
+#task2{
+    top:-54px;
+    left:460px;
+    transition: top 1s;
+}
+
+#task3{
+    top:30px;
+    right:-54px;
+    transition: right 1s;
+}
+
+#task4{
+    bottom:-54px;
+    left:470px;
+    transition: bottom 1s;
+}
+
+.vertimgbutton{
+    height:50px;
+    width:50px;
+    background-color:powderblue;
+    border-color: black;
+    text-align: center;
+    position:relative;
+    display: inline-block;
+    margin: 0px 2px 0px 2px;
+}
+.vertmovebutton{
+    height:50px;
+    width:50px;
+    background-color:lightsalmon;
+    border-color: black;
+    text-align: center;
+    position:relative;
+    display: inline-block;
+    margin: 1px 2px 1px 2px;
+}
+.vertsizebutton{
+    height:50px;
+    width:50px;
+    background-color:lightgray;
+    border-color: black;
+    text-align: center;
+    position:relative;
+    display: inline-block;
+    margin: 1px 2px 1px 2px;
+}
+
+.vertfrtbut{
+    height:50px;
+    width:50px;
+    background-color:powderblue;
+    border-color: black;
+    text-align: center;
+    position:relative;
+    display: inline-block;
+    margin: 2px 2px 1px 2px;
+}
+
+.vertbckbut{
+    height:50px;
+    width:50px;
+    background-color:lightgray;
+    border-color: black;
+    text-align: center;
+    position:relative;
+    display: inline-block;
+    margin: 0px 2px 2px 2px;
+}
+
+.horiimgbutton{
+    height:50px;
+    width:50px;
+    background-color:powderblue;
+    border-color: black;
+    text-align: center;
+    position:relative;
+    display: inline-block;
+    margin: 2px 0px 2px 0px;
+}
+.horimovebutton{
+    height:50px;
+    width:50px;
+    background-color:lightsalmon;
+    border-color: black;
+    text-align: center;
+    position:relative;
+    display: inline-block;
+    margin: 2px 0px 2px 0px;
+}
+.horisizebutton{
+    height:50px;
+    width:50px;
+    background-color:lightgray;
+    border-color: black;
+    text-align: center;
+    position:relative;
+    display: inline-block;
+    margin: 2px 0px 2px 0px;
+}
+
+.horifrtbut{
+    height:50px;
+    width:50px;
+    background-color:powderblue;
+    border-color: black;
+    text-align: center;
+    position:relative;
+    display: inline-block;
+    margin: 2px 0px 2px 2px;
+}
+
+.horibckbut{
+    height:50px;
+    width:50px;
+    background-color:lightgray;
+    border-color: black;
+    text-align: center;
+    position:relative;
+    display: inline-block;
+    margin: 2px 2px 2px 0px;
+}
+
+.taskbutton{
+    height:50px;
+    width:50px;
+    position: absolute;
+}
+
+#inbut1{
+    top:0px;
+    left:54px;
+}
+#outbut1{
+    bottom:0px;
+    left:54px;
+}
+#inbut2{
+    top:54px;
+    left:0px;
+}
+#outbut2{
+    top:54px;
+    right:0px;
+}
+#inbut3{
+    top:0px;
+    right:54px;
+}
+#outbut3{
+    bottom:0px;
+    right:54px;
+}
+#inbut4{
+    bottom:54px;
+    left:0px;
+}
+#outbut4{
+    bottom:54px;
+    right:0px;
+}
+
+.vertresetbutton{
+    height:150px;
+    width:50px;
+    top:35%;
+    position: absolute;
+}
+
+.horiresetbutton{
+    height:50px;
+    width:150px;
+    left:35%;
+    position: absolute;
+}
+
+#rstbut1{
+    left:54px
+}
+
+#rstbut2{
+    top:54px
+}
+#rstbut3{
+    right:54px;
+}
+#rstbut4{
+    bottom:54px;
+}
