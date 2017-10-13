@@ -8,19 +8,12 @@
     top: 0;
 }
         
-.Image{
-    height:150px;
-    width:150px;
-    position: absolute;
-}
 
 #Image1{
     top: 100px;
     left: 100px;
     width:150px;
-    height:150px;
-    background-image: url(img/Ragna_the_Bloodedge_Calamity_Trigger,_Character_Select_Artwork.png);
-    background-size: cover;
+    height:auto;
     position: absolute;
     
 }
@@ -29,9 +22,7 @@
     top: 100px;
     left: 750px;
     width:150px;
-    height:150px;
-    background-image: url(img/Jin_Kisaragi_Calamity_Trigger,_Character_Select_Artwork.png);
-    background-size: cover;
+    height:auto;
     position: absolute;
 }
 
@@ -39,9 +30,7 @@
     top: 200px;
     left: 1000px;
     width:150px;
-    height:150px;
-    background-image:url(img/Noel_Vermillion_Calamity_Trigger,_Character_Select_Artwork.png);
-    background-size: cover;
+    height:auto;
     position: absolute;
 }
 
@@ -49,9 +38,7 @@
     top: 300px;
     left: 400px;
     width:150px;
-    height:150px;
-    background-image: url(img/Rachel_Alucard_Calamity_Trigger,_Character_Select_Artwork.png);
-    background-size: cover;
+    height:auto;
     position: absolute;
 }
 

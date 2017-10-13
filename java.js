@@ -90,45 +90,37 @@ document.getElementById("rgtbut4").addEventListener("click",function(){
 document.getElementById("bigbut1").addEventListener("click",function(){
     Image1_z = Image1_z + 5;
     Image1.style.width= Image1_z+"px";
-    Image1.style.height= Image1_z+"px"
 });
 document.getElementById("bigbut2").addEventListener("click",function(){
     Image2_z = Image2_z + 5;
     Image2.style.width= Image2_z+"px";
-    Image2.style.height= Image2_z+"px"
 });
 document.getElementById("bigbut3").addEventListener("click",function(){
     Image3_z = Image3_z + 5;
     Image3.style.width= Image3_z+"px";
-    Image3.style.height= Image3_z+"px"
 });
 document.getElementById("bigbut4").addEventListener("click",function(){
     Image4_z = Image4_z + 5;
     Image4.style.width= Image4_z+"px";
-    Image4.style.height= Image4_z+"px"
     
 });
 
 document.getElementById("smlbut1").addEventListener("click",function(){
     Image1_z = Image1_z - 5;
     Image1.style.width= Image1_z+"px";
-    Image1.style.height= Image1_z+"px";
     
 });
 document.getElementById("smlbut2").addEventListener("click",function(){
     Image2_z = Image2_z - 5;
     Image2.style.width= Image2_z+"px";
-    Image2.style.height= Image2_z+"px"
 });
 document.getElementById("smlbut3").addEventListener("click",function(){
     Image3_z = Image3_z - 5;
     Image3.style.width= Image3_z+"px";
-    Image3.style.height= Image3_z+"px"
 });
 document.getElementById("smlbut4").addEventListener("click",function(){
     Image4_z = Image4_z - 5;
     Image4.style.width= Image4_z+"px";
-    Image4.style.height=Image4_z+"px"
 });
 
 document.getElementById("inbut1").addEventListener("click",function(){
@@ -164,7 +156,6 @@ document.getElementById("rstbut1").addEventListener("click",function(){
     Image1.style.left= Image1_x+"px";
     Image1.style.top=Image1_y+"px";
     Image1.style.width=Image1_z+"px";
-    Image1.style.height=Image1_z+"px";
 });
 document.getElementById("rstbut2").addEventListener("click",function(){
     Image2_x = 750
@@ -173,7 +164,6 @@ document.getElementById("rstbut2").addEventListener("click",function(){
     Image2.style.left= Image2_x+"px";
     Image2.style.top=Image2_y+"px";
     Image2.style.width=Image2_z+"px";
-    Image2.style.height=Image2_z+"px";
 });
 document.getElementById("rstbut3").addEventListener("click",function(){
     Image3_x = 1000
@@ -182,7 +172,6 @@ document.getElementById("rstbut3").addEventListener("click",function(){
     Image3.style.left= Image3_x+"px";
     Image3.style.top=Image3_y+"px";
     Image3.style.width=Image3_z+"px";
-    Image3.style.height=Image3_z+"px";
 
 });
 document.getElementById("rstbut4").addEventListener("click",function(){
@@ -192,45 +181,44 @@ document.getElementById("rstbut4").addEventListener("click",function(){
     Image4.style.left= Image4_x+"px";
     Image4.style.top=Image4_y+"px";
     Image4.style.width=Image4_z+"px";
-    Image4.style.height=Image4_z+"px";
 });
 
 document.getElementById("1img1").addEventListener("click",function(){
-    Image1.style.backgroundImage= "url(img/Ragna_the_Bloodedge_Calamity_Trigger,_Character_Select_Artwork.png)"; 
+    Image1.src= "img/Ragna_the_Bloodedge_Calamity_Trigger,_Character_Select_Artwork.png"; 
 });
 document.getElementById("1img2").addEventListener("click",function(){
-    Image1.style.backgroundImage= "url(img/Ragna_the_Bloodedge_Continuum_Shift,_Character_Select_Artwork.png)"; 
+    Image1.src= "img/Ragna_the_Bloodedge_Continuum_Shift,_Character_Select_Artwork.png"; 
 });
 document.getElementById("1img3").addEventListener("click",function(){
-    Image1.style.backgroundImage= "url(img/Ragna_the_Bloodedge_CP_render.png)"; 
+    Image1.src= "img/Ragna_the_Bloodedge_CP_render.png"; 
 });
 
 document.getElementById("2img1").addEventListener("click",function(){
-    Image2.style.backgroundImage= "url(img/Jin_Kisaragi_Calamity_Trigger,_Character_Select_Artwork.png)"; 
+    Image2.src= "Jin_Kisaragi_Calamity_Trigger,_Character_Select_Artwork.png"; 
 });
 document.getElementById("2img2").addEventListener("click",function(){
-    Image2.style.backgroundImage= "url(img/Jin_Kisaragi_Continuum_Shift,_Character_Select_Artwork.png)"; 
+    Image2.src= "img/Jin_Kisaragi_Continuum_Shift,_Character_Select_Artwork.png"; 
 });
 document.getElementById("2img3").addEventListener("click",function(){
-    Image2.style.backgroundImage= "url(img/Jin_Kisaragi_Chrono_Phantasma,_Character_Select_Artwork.png)"; 
+    Image2.src= "img/Jin_Kisaragi_Chrono_Phantasma,_Character_Select_Artwork.png"; 
 });
 
 document.getElementById("3img1").addEventListener("click",function(){
-    Image3.style.backgroundImage= "url(img/Noel_Vermillion_Calamity_Trigger,_Character_Select_Artwork.png)"; 
+    Image3.src= "img/Noel_Vermillion_Calamity_Trigger,_Character_Select_Artwork.png"; 
 });
 document.getElementById("3img2").addEventListener("click",function(){
-    Image3.style.backgroundImage= "url(img/Noel_Vermillion_Continuum_Shift,_Character_Select_Artwork.png)"; 
+    Image3.src= "img/Noel_Vermillion_Continuum_Shift,_Character_Select_Artwork.png"; 
 });
 document.getElementById("3img3").addEventListener("click",function(){
-    Image3.style.backgroundImage= "url(img/Noel_Vermillion_Chronophantasma,_Character_Select_Artwork,_Alternate_Artwork.png)";
+    Image3.src= "img/Noel_Vermillion_Chronophantasma,_Character_Select_Artwork,_Alternate_Artwork.png";
 });
 
 document.getElementById("4img1").addEventListener("click",function(){
-    Image4.style.backgroundImage= "url(img/Rachel_Alucard_Calamity_Trigger,_Character_Select_Artwork.png)"; 
+    Image4.src= "img/Rachel_Alucard_Calamity_Trigger,_Character_Select_Artwork.png"; 
 });
 document.getElementById("4img2").addEventListener("click",function(){
-    Image4.style.backgroundImage= "url(img/Rachel_Alucard_Continuum_Shift,_Character_Select_Artwork.png)"; 
+    Image4.src= "img/Rachel_Alucard_Continuum_Shift,_Character_Select_Artwork.png"; 
 });
 document.getElementById("4img3").addEventListener("click",function(){
-    Image4.style.backgroundImage= "url(img/Rachel_Alucard_Chronophantasma,_Character_Select_Artwork.png)";
+    Image4.src= "img/Rachel_Alucard_Chronophantasma,_Character_Select_Artwork.png";
 });
